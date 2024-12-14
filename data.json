@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1734040542209,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 1734039201361,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "user"
+    },
+    {
+      "id": 1734040230067,
+      "name": "User123",
+      "email": "user123@gmail.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": 1734059341749,
+      "name": "TestUser",
+      "email": "testuser@gmail.com",
+      "password": "testuser",
+      "role": "user"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": 1734046683987,
+      "title": "wewa",
+      "content": "ee",
+      "author": "User123",
+      "date": "12/12/2024"
+    }
+  ]
+}
