@@ -7,7 +7,12 @@ const app = express();
 const PORT = 3000;
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://mentalhealthnetwork.netlify.app",
+    methods: "GET,POST,PUT,DELETE",
+  })
+);
 app.use(bodyParser.json());
 
 // Helper function to read and write data
