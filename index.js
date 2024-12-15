@@ -9,7 +9,7 @@ const PORT = 3000;
 // Middleware
 app.use(
   cors({
-    origin: "https://mentalhealthnetwork.netlify.app",
+    origin: "https://mentalhealthnet.netlify.app",
     methods: "GET,POST,PUT,DELETE",
   })
 );
